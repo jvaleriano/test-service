@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testService"
+  description: "TestService"
+  annotations:
+    github.com/project-slug: "jvaleriano/test-service"
+    backstage.io/techdocs-ref: github:https://github.com/jvaleriano/test-service
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "jvaleriano"
